@@ -11,5 +11,6 @@ module.exports = app => {
     router.post('/user/add', controller.user.add)
     router.post('/user/delete', controller.user.delete)
 
+
     router.get('/user/test', controller.user.test)
 }

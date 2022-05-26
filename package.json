@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --daemon"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "egg": "^2.33.1",
-    "egg-bin": "^4.17.0"
+    "egg-bin": "^4.17.0",
+    "egg-jwt": "^3.1.7",
+    "egg-mysql": "^3.1.0",
+    "egg-scripts": "^2.17.0",
+    "moment": "^2.29.1"
   }
 }

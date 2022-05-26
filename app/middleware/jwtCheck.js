@@ -1,4 +1,4 @@
-const jwtCheck = secret => (ctx, next) => {
+const jwtCheck = secret => async (ctx, next) => {
     const token = ctx.request.header.authorization
     let decode
 
